@@ -1,0 +1,14 @@
+﻿  19-03-2026.cpp
+C:\Users\Student\Desktop\19-03-2026\19-03-2026\header.h(1,13): warning C4081: oczekiwano "newline"; znaleziono ";"
+  (kompilowanie pliku źródłowego „19-03-2026.cpp”)
+  
+  header.cpp
+C:\Users\Student\Desktop\19-03-2026\19-03-2026\header.h(1,13): warning C4081: oczekiwano "newline"; znaleziono ";"
+  (kompilowanie pliku źródłowego „header.cpp”)
+  
+  klasy.cpp
+C:\Users\Student\Desktop\19-03-2026\19-03-2026\header.h(1,13): warning C4081: oczekiwano "newline"; znaleziono ";"
+  (kompilowanie pliku źródłowego „klasy.cpp”)
+  
+  Generowanie kodu...
+  19-03-2026.vcxproj -> C:\Users\Student\Desktop\19-03-2026\x64\Debug\19-03-2026.exe
