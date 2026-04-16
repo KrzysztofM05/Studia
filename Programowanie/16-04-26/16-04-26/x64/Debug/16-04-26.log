@@ -1,0 +1,45 @@
+﻿  16-04-26.cpp
+C:\Users\Student\Desktop\16-04-26\16-04-26\16-04-26.cpp(11,14): error C2248: "Pochodna::funkcja1": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "Pochodna"
+      C:\Users\Student\Desktop\16-04-26\16-04-26\header.h(16,7):
+      zobacz deklarację „Pochodna::funkcja1”
+      C:\Users\Student\Desktop\16-04-26\16-04-26\header.h(13,7):
+      zobacz deklarację „Pochodna”
+  
+C:\Users\Student\Desktop\16-04-26\16-04-26\16-04-26.cpp(17,17): error C2248: "Bazowa::wart2": nie można uzyskać dostępu do protected składowa zadeklarowanych w klasie "Bazowa"
+      C:\Users\Student\Desktop\16-04-26\16-04-26\header.h(8,6):
+      zobacz deklarację „Bazowa::wart2”
+      C:\Users\Student\Desktop\16-04-26\16-04-26\header.h(3,7):
+      zobacz deklarację „Bazowa”
+  
+C:\Users\Student\Desktop\16-04-26\16-04-26\16-04-26.cpp(18,17): error C2248: "Bazowa::wart3": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "Bazowa"
+      C:\Users\Student\Desktop\16-04-26\16-04-26\header.h(10,6):
+      zobacz deklarację „Bazowa::wart3”
+      C:\Users\Student\Desktop\16-04-26\16-04-26\header.h(3,7):
+      zobacz deklarację „Bazowa”
+  
+C:\Users\Student\Desktop\16-04-26\16-04-26\16-04-26.cpp(22,27): error C2248: "Bazowa::wart2": nie można uzyskać dostępu do protected składowa zadeklarowanych w klasie "Bazowa"
+      C:\Users\Student\Desktop\16-04-26\16-04-26\header.h(8,6):
+      zobacz deklarację „Bazowa::wart2”
+      C:\Users\Student\Desktop\16-04-26\16-04-26\header.h(3,7):
+      zobacz deklarację „Bazowa”
+  
+C:\Users\Student\Desktop\16-04-26\16-04-26\16-04-26.cpp(23,27): error C2248: "Bazowa::wart3": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "Bazowa"
+      C:\Users\Student\Desktop\16-04-26\16-04-26\header.h(10,6):
+      zobacz deklarację „Bazowa::wart3”
+      C:\Users\Student\Desktop\16-04-26\16-04-26\header.h(3,7):
+      zobacz deklarację „Bazowa”
+  
+  klasy.cpp
+C:\Users\Student\Desktop\16-04-26\16-04-26\klasy.cpp(10,9): error C2248: "Bazowa::wart3": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "Bazowa"
+      C:\Users\Student\Desktop\16-04-26\16-04-26\header.h(10,6):
+      zobacz deklarację „Bazowa::wart3”
+      C:\Users\Student\Desktop\16-04-26\16-04-26\header.h(3,7):
+      zobacz deklarację „Bazowa”
+  
+C:\Users\Student\Desktop\16-04-26\16-04-26\klasy.cpp(18,10): error C2248: "Bazowa::wart3": nie można uzyskać dostępu do private składowa zadeklarowanych w klasie "Bazowa"
+      C:\Users\Student\Desktop\16-04-26\16-04-26\header.h(10,6):
+      zobacz deklarację „Bazowa::wart3”
+      C:\Users\Student\Desktop\16-04-26\16-04-26\header.h(3,7):
+      zobacz deklarację „Bazowa”
+  
+  Generowanie kodu...
