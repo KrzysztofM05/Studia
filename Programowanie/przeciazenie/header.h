@@ -1,13 +1,28 @@
 #pragma once
+#include <iostream>
+#include <string>
 
-class Test {
-private:
-	int val;
+using namespace std;
 
+class Przeciaz
+{
 public:
-	Test(int v);
+	Przeciaz(double aVal = 0, double bVal = 0);
 
-	Test(Test &kopia);
+	void show() {
+		cout << "a = " << a << ",  b = " << b << endl;
+	};
 
-	friend void pokaz(Test &t);
+	Przeciaz operator-() const;
+
+	Przeciaz operator+(const Przeciaz& other) const;
+
+	friend Przeciaz operator++(Przeciaz& c);
+
+	friend bool operator==(const Przeciaz& aVal, const Przeciaz& bVal);
+
+private:
+	double a,b;
 };
+
+

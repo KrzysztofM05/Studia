@@ -1,17 +1,27 @@
-#include <iostream>
-#include "header.h";
+#include "header.h"
 
 using namespace std;
 
-Test::Test(int v) {
-	cout << "Kontruktor zwykly" << endl;
+Przeciaz::Przeciaz(double aVal, double bVal) : a(aVal), b(bVal) {}
+
+
+Przeciaz Przeciaz::operator-() const {
+	return Przeciaz(-a, -b);
 }
 
-Test:Test(Test &kopia) {
-	val = kopia.val;
-	cout << "Konstruktor kopi" << endl;
+Przeciaz Przeciaz::operator+(const Przeciaz& other) const
+{
+	return Przeciaz(a + other.a, b + other.b);
 }
 
-void pokaz(Test &t) {
-	cout << "Wartosc: " << t.val << endl;
+
+Przeciaz operator++(Przeciaz& c) {
+	c.a++;
+	c.b++;
+
+	return c;
+}
+
+bool operator==(const Przeciaz& aVal, const Przeciaz& bVal) {
+	return (aVal.a == bVal.a && aVal.b == bVal.b);
 }
