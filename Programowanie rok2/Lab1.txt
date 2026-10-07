@@ -1,0 +1,102 @@
+Krzysztof Mordarski Lab1 07.10.2026
+Zad.1
+package lab_1_07.pkg11.pkg26;
+public class Lab_1_071126 {
+
+    public static void main(String[] args) {
+        System.out.println("Krzysztof Mordarski\n");
+    }
+    
+}
+
+Zad.2
+package lab_1_07.pkg11.pkg26;
+public class Lab_1_071126 {
+
+    public static void main(String[] args) {
+        System.out.println("X X\n X \nX X");
+    }
+    
+}
+
+
+Zad.3
+package lab_1_07.pkg11.pkg26;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Lab_1_071126 {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        
+        System.out.print("Podaj a: ");
+        
+        double a = in.nextDouble();
+        
+        System.out.print("Podaj b: ");
+        
+        double b = in.nextDouble();
+        
+        System.out.printf(Locale.GERMANY,"a + b = %g\n", a+b);
+        
+        System.out.printf(Locale.GERMANY,"a - b = %g\n", a-b);
+        
+        System.out.printf(Locale.GERMANY,"a * b = %g\n", a*b);
+        
+        if(b == 0)
+             System.out.printf(Locale.GERMANY,"Nie ma dzielenia przez 0\n");
+        else
+            System.out.printf(Locale.GERMANY,"a / b = %g\n", a/b);
+    }
+    
+}
+
+Zad.4
+package lab_1_07.pkg11.pkg26;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Lab_1_071126 {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        
+        System.out.print("Podaj promien: ");
+        
+        double r = in.nextDouble();
+        
+        System.out.printf(Locale.GERMANY,"Powierzchnia kola = %g\n",Math.PI*Math.pow(r, 2));
+    }
+    
+}
+
+
+Zad.5
+package lab_1_07.pkg11.pkg26;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Lab_1_071126 {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        
+        System.out.print("Podaj stopnie kata: ");
+        
+        double k = in.nextDouble();
+        
+        System.out.printf(Locale.GERMANY,"Kat w rad = %g\n",k*(Math.PI/180));
+    }
+    
+}
+
+Zad.6
+
+
+
+
+
