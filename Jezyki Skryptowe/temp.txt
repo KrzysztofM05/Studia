@@ -1,1 +1,121 @@
+# Online Python compiler (interpreter)
+# Write and run Python online using this editor.
+'''
+#zad 1
+name = input('Imie: ')
+print(f'Witaj {name}')
+#zad2
+a = int(input("a = "))
+b = int(input("b = "))
+print(a+b)
+#zad3
+import random
+hit = 0
+n = 1000
+for i in range(n):
+  x = random.uniform(0,1)
+  y = random.uniform(0,1)
+  if x**2 + y**2 <=1:
+    hit += 1
+pi = 4 * hit / n
+print(pi)
+#zad4
+import cmath
+x = -23
+print(cmath.sqrt(x))
+#zad 5
+wynik = int(31 % 3)
+wynik*=wynik+3
+print(wynik)
+#zad 6
+for x in range(5):
+  print('-0,7e + 4,06')
+  if x != 4:
+    print('@')
+#zad 7
+table = [1,(2,3),"4"]
+table.append(5.6)
+table.append(True)
+table.append([7,8])
+print(table)
+#zad 8
+table = [1,(2,3),"4"]
+table.append(5.6)
+table.append(True)
+table.append([7,8])
+print(*table, sep="\n")
+#zad 9
+list1 = [1,2,4,"Py"]
+list2 = [3,2,1,"Py"]
+for elem in list1:
+  if elem in list2:
+    print(elem,"- jest w obu")
+  else:
+    print(elem,"- tylko w pierwszej")
+#zad 10
+n = int(input("Podaj element szukajacy: "))
+list = [1,2,3,2,3,1,1,5,4]
+count = 0
+for elem in list:
+  if elem == n:
+    count += 1
+if count == 0:
+  print("nie ma takiego elementu")
+else:
+  print("element jest: ",count," razy")
+#zad 11
+num = int(input("Podaj liczbe: "))
+if(num<0):
+  print("mniej niz zero")
+elif(num>0):
+  print("wiecej niz zero")
+else:
+  print("rowne zero")
+#zad12
+list = input("Wypisz elementy listy (separacja spacja): ")
+list = list.split(" ")
+for elem in list:
+  print(elem) 
+#zad 13
+text = input("Podaj ciag liter: ")
+letterTable = []
+for elem in text:
+  if elem in ["a","e","i","o","u","y"]:
+    letterTable.append(elem)
+letterTable.sort()
+print(letterTable)
+letter = letterTable[0]
+tableLen = len(letterTable)
+count = 1
+for x in range(1,tableLen):
+  if letterTable[x] == letter:
+    count += 1
+  else:
+    print(letter,": ",count)
+    letter = letterTable[x]
+    count = 1
+print(letter,": ",count)
+letter = letterTable[x]
+count = 1
+#zad14 
+numbers = input("Podaj liczbe: ")
+if not numbers.isdigit():
+  print("blad w pisowni liczby")
+'''
+#zad15
+liczby = input("Podaj liczby (oddzielone spacja) = ")
+liczby = liczby.split(" ")
+liczby = [int(x) for x in liczby]
+liczby.sort()
+suma = 0
+liczbaElem = 0
+for elem in liczby:
+  suma += elem
+  liczbaElem += 1
+print("suma: ",suma)
+print("srednia: ",suma/liczbaElem)
+if not liczbaElem%2 == 0:
+  print("mediana: ",liczby[(int(liczbaElem+1))/2])
+else:
+  print("mediana: ",(liczby[(int(liczbaElem/2))-1]+liczby[int(liczbaElem/2)])/2)
 
